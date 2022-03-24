@@ -6,6 +6,8 @@ Date: 2018-12-11
 #Define
 $reportname=$env:computername+'-'+$env:username
 $report=(Split-Path -Parent $MyInvocation.MyCommand.Definition)+"\reports\$reportname.csv"
+if (!(Test-Path $report))
+    {New-Item -Path $report -ItemType Directory -Force
 
 #Check software installed
 
