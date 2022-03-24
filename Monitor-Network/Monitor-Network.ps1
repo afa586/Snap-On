@@ -18,13 +18,12 @@ $ScriptBlock =
 {
 
 Param($Server,$Path,$Serverlist)
-    $smtpserver = 'service.snapon.com'
-    $From = 'MonitorAsiaIT@snapon.com'
-    $Logs = "\\kunsw16logs1\Monitor-Network\History\$Server"
+    $smtpserver = 'Type in SMTP server here'
+    $From = 'MonitorAsiaIT@tom.com'
     $Historyfolder = "$Path\History\$Server"
     if (Test-Path $Historyfolder) {Write-Host "History folder exist"}
     else {New-Item -Path $Historyfolder -ItemType Directory -Force}
-    $db='http://10.145.204.47:8086/write?db=snapon'
+    $db='http://10.145.204.47:8086/write?db=snapon' #Type in influxdb address here
     $Loststatus0 = "Good"
     $Latencystatus0 = "Good"
     $Networkstatus0 = "Good"
@@ -132,7 +131,7 @@ While ($true)
 
     </table>
     </br>
-    Logs: $Logs
+    Logs: $Historyfolder
     </body>
     </html>
 "@
