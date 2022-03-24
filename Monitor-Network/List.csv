@@ -1,15 +1,4 @@
 Address,Description,LostAlert,LatencyAlert,PingCount,Source,Receiver
-10.145.206.1,Singapore Gateway,10,200,100,Kunshan,jack.guo@snapon.com Tom.wu@snapon.com clack.huang@snapon.com lina.su@snapon.com
-email.snapon.com,US Email,10,250,100,Kunshan,jack.guo@snapon.com Tom.wu@snapon.com clack.huang@snapon.com andy.zhang@snapon.com
-10.6.84.25,Iproxy-Jpn,15,200,100,Kunshan,jack.guo@snapon.com Tom.wu@snapon.com clack.huang@snapon.com lina.su@snapon.com Andy.zhang@snapon.com
-10.145.208.1,Hongkong Gateway,10,200,100,Kunshan,jack.guo@snapon.com Tom.wu@snapon.com clack.huang@snapon.com
-10.145.210.1,Taiwan Gateway,10,200,100,Kunshan,jack.guo@snapon.com Tom.wu@snapon.com clack.huang@snapon.com
-10.145.226.1,Beijing Gateway,10,200,100,Kunshan,jack.guo@snapon.com Tom.wu@snapon.com clack.huang@snapon.com
-10.145.207.1,Korea Gateway,15,250,100,Kunshan,jack.guo@snapon.com Tom.wu@snapon.com clack.huang@snapon.com
-10.145.219.1,Xiaoshan Gateway,10,200,100,Kunshan,jack.guo@snapon.com Tom.wu@snapon.com clack.huang@snapon.com
-picjobs.snapon.com,USA EDI FTP,10,250,100,Kunshan,Jack.guo@snapon.com Tom.wu@snapon.com clack.huang@snapon.com lina.su@snapon.com
-10.145.1.1,Shanghai Gateway,10,200,100,Kunshan,jack.guo@snapon.com Tom.wu@snapon.com clack.huang@snapon.com Andy.zhang@snapon.com
-10.145.1.245,James Priner,10,200,100,Kunshan,jack.guo@snapon.com Tom.wu@snapon.com clack.huang@snapon.com Andy.zhang@snapon.com
-10.145.1.241,Antonio Priner,10,200,100,Kunshan,jack.guo@snapon.com Tom.wu@snapon.com clack.huang@snapon.com Andy.zhang@snapon.com
-iproxy-zbej.snapon.com,iproxy-zbej,10,200,100,Kunshan,jack.guo@snapon.com Tom.wu@snapon.com clack.huang@snapon.com Andy.zhang@snapon.com
-iproxy-zshi.snapon.com,iproxy-zshi,10,200,100,Kunshan,jack.guo@snapon.com Tom.wu@snapon.com clack.huang@snapon.com Andy.zhang@snapon.com
+10.145.206.1,Singapore Gateway,10,200,100,Kunshan,test1@tom.com test2@tom.com
+10.145.208.1,Hongkong Gateway,10,200,100,Kunshan,test1@tom.com test2@tom.com
+
