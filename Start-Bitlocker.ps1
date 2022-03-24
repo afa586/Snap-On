@@ -1,12 +1,15 @@
 ﻿<#--------------------------------------------------------------------------------------------------------------------
 Author: Tom
 Date:2019-04-16
-Description:The script is used start bitlocker
+Description:The script is used start bitlocker, if it don't have TPM will use the password defined in $SecureString
 -------------------------------------------------------------------------------------------------------------------#>
 #Define
 $x = Split-Path -Parent $MyInvocation.MyCommand.Definition #get current path
 $Log = "$x\Logs\" + $env:computername + ".txt" #set log file address
 $PSLog = "$x\Logs\" + $env:computername + "-PS.txt" #set PS log file address
+if (!(Test-Path "$x\Logs"))
+    {New-Item -Path "$x\Logs" -ItemType Directory -Force}
+    
 try { Start-Transcript -path $PSLog } catch {}
 $EncryptLog = "$x\Logs\EncryptLog.csv" #set encrypted computer log file address
 $SecureString = ConvertTo-SecureString "Snapon@2019" -AsPlainText -Force #Define password
